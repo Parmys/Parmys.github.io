@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>TP Labyrinthe</title>
+
+
+    <style>
+
+body{
+            padding:0;
+            margin:0;
+            background-color: rgb(209, 233, 247);
+           
+           }
+
+ p{
+
+font-family:'Times New Roman', Times, serif;
+font-size:medium ;
+color: blue;
+}
+
+           h1{
+            text-align: center;
+            color:blue;
+            text-shadow: 2px 2px  yellow;
+           }
+
+
+           h4{
+            text-align: center;
+            color: blue;
+            text-shadow: 2px 2px  yellow;
+
+           }
+
+    .entree-sortie{ 
+               
+                display:flex;
+                flex-direction: row;
+
+                
+               
+                
+
+            } 
+            
+        .entree-sortie > .D {
+        
+            margin-left: 10%;
+       color:rgb(217, 27, 144);
+       text-shadow: 2px 2px  yellow;
+       }
+             
+       .entree-sortie > .G{
+           
+        margin-left: 50%;
+       color:rgb(206, 37, 124);
+       text-shadow: 2px 2px  yellow;
+       
+       
+       }
+          
+          .back{
+
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+
+          }  
+           
+        .back> .description {
+
+           padding-top: 15%; 
+           
+        } 
+
+        img {
+          margin-top: 100px;
+          border: 3px solid rgb(27, 25, 182);
+          border-radius: 14px;
+          padding: 30px;
+           }
+
+        
+        </style>
+
+</head>
+<body>
+    <h1>Jeu Labyrinthe</h1>
+<div   class="entree-sortie"> 
+
+<div  class="D">
+    <a  href="1.html"><p class="entree">ENTREE DU LABYRINTHE</p></a>  
+
+</div>
+<div class="G">  
+    <a  href="plan.html"><p class="retour">VOIR LE PLAN DU LABYRINTHE</p></a> 
+</div> 
+
+</div>    
+
+
+<div  class="back"> 
+   
+<div  class="description">
+    <h4>DESCRIPTION</h4>
+
+    <p>Il y a plusieurs chemin:<br> essayez de trouvez le bon chemin pour sortir.</p>
+
+
+</div>       
+<div>
+   <div> 
+    <img src="images/labyrinthe.jpg" alt="Labyrinthe" style="width=1500px;height=1500px;" >
+   </div>
+
+</div>
+
+    
+</body>
+</html>
+
+
