@@ -1,0 +1,43 @@
+
+
+
+
+
+table 
+  {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: left;
+    padding: 4px;
+    border: 1px solid;
+    border-color: #dff5d6;
+    border-collapse: collapse;
+    
+  }
+
+
+th{
+
+background-color: rgb(57, 250, 50);
+font-family: 'Courier New', Courier, monospace;
+color: white;
+
+
+
+}
+
+tr:nth-child(odd) {
+    background-color: #9cd486;
+    border-color: #dff5d6; 
+}
+
+
+td,tr,th {
+     
+   
+    padding: 4px; 
+    border: 1px solid;
+    border-color: #dff5d6;
+    
+  } 
+  
